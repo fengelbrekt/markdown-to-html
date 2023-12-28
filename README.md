@@ -14,7 +14,8 @@ cargo build --release
 
 ## Adding to .zshrc
 
-```export PATH="$PATH:/path/to/your/project/target/release"
+```
+export PATH="$PATH:/path/to/your/project/target/release"
 source ~/.zshrc
 ```
 
