@@ -12,16 +12,17 @@ This project provides a command-line tool to convert Markdown files to HTML. It 
 To build the project, follow these steps:
 
 1. **Clone the Repository** (if you have not already done so):
-   \```bash
+
+   ```bash
    git clone git@github.com:fengelbrekt/markdown-to-html.git
    cd markdown-to-html
-   \```
+   ```
 
 2. **Build the Project**:
-   \``` bash
-cargo build --release
-\```
-This command compiles the project in release mode. The executable will be located in  `target/release`.
+   ```bash
+   cargo build --release
+   ```
+   This command compiles the project in release mode. The executable will be located in `target/release`.
 
 ## Making the Tool Accessible from the CLI
 
@@ -31,7 +32,8 @@ To use the tool from anywhere in your command line interface (CLI), you need to 
    ```bash
    mv ./target/release/markdown_to_html ~/.cargo/bin/
    ```
-   This makes the `markdown_to_html` command available globally in your terminal.
+
+This makes the `markdown_to_html` command available globally in your terminal.
 
 ## Usage
 
