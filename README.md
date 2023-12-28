@@ -20,4 +20,6 @@ source ~/.zshrc
 
 ## Running the program
 
-`markdown-to-html <path-to-markdown-file> <path-to-output-html-file>`
+````
+markdown-to-html <path-to-markdown-file> <path-to-output-html-file>```
+````
